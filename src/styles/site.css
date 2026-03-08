@@ -1,0 +1,42 @@
+:root {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --text: #1f2937;
+  --border: #d1d5db;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.site-logo {
+  height: 44px;
+  width: auto;
+}
+
+.site-main {
+  padding: 24px;
+}
+
+.site-main section {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+}
