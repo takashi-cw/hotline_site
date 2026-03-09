@@ -17,15 +17,16 @@ body {
 }
 
 .site-header {
-  display: block;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 12px 20px;
   border-bottom: 1px solid var(--border);
   background: var(--panel);
 }
 
 .site-logo {
   display: block;
-  width: 100%;
+  width: min(100%, 560px);
   height: auto;
 }
 
